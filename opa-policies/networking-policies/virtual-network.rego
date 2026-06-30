@@ -1,4 +1,4 @@
-Rule 1 : Azure DDoS Network Protection is enabled on virtual networks for azure bastion
+# Rule 1 : Azure DDoS Network Protection is enabled on virtual networks for azure bastion
 
 ddos_protection_enabled(r) if {
     plan := r.change.after.ddos_protection_plan[_]
