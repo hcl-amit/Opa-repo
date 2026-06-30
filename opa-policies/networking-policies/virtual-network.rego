@@ -1,3 +1,5 @@
+package terraform
+
 # Rule 1 : Azure DDoS Network Protection is enabled on virtual networks for azure bastion
 
 ddos_protection_enabled(r) if {
